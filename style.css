@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+.bg-my{
+    background-color: #111;
+}
+.box-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    background-image: url(./1_yqvKBMCEKZAcSTLF9ry2cQ.jpeg);
+    background-size: cover;
+   background-position: center;
+}
+
+   
+.box:hover{
+    border: 3px solid aqua;
+}
+.box-4{
+    display: flex;
+}
